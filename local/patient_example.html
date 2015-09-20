@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/c3/c3.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/dashboard.css" rel="stylesheet">
@@ -98,12 +99,15 @@
             <dd>2012/07/11</dd>
           </dl>
           <h2 class="sub-header">Patient data</h2>
-          <div>
+          <div id="chart-spo2">
           </div>
         </div>
       </div>
     </div>
 
+    <script src="bower_components/d3/d3.min.js"></script>
+    <script src="bower_components/c3/c3.min.js"></script>
+    <script src="js/plot.js"></script>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
